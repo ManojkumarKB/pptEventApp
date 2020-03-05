@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b099c682-e744-4cd5-887d-de5477d2def8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1YhlSurAnBHrWd0yJSrvcfvbr5G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Trainee\Downloads\spring-boot-web-jsp\spring-boot-web-jsp\src\main\resources\static\css" />
+      <recent name="C:\Users\Trainee\Downloads\spring-boot-web-jsp\spring-boot-web-jsp\src\main\resources\static" />
+      <recent name="C:\Users\Trainee\Downloads\spring-boot-web-jsp\spring-boot-web-jsp\src\main\webapp\WEB-INF\jsp" />
+      <recent name="C:\Users\Trainee\Downloads\spring-boot-web-jsp\spring-boot-web-jsp\src\main\resources\static\templates" />
+      <recent name="C:\Users\Trainee\Downloads\spring-boot-web-jsp\spring-boot-web-jsp\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mkyong" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Trainee\Downloads\spring-boot-web-jsp\spring-boot-web-jsp\src\main\resources\static" />
+      <recent name="C:\Users\Trainee\Downloads\spring-boot-web-jsp\spring-boot-web-jsp\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Trainee\Downloads\spring-boot-web-jsp\spring-boot-web-jsp\src\main\webapp\WEB-INF\js" />
+      <recent name="C:\Users\Trainee\Downloads\spring-boot-web-jsp\spring-boot-web-jsp\src\main\webapp\WEB-INF\images" />
+      <recent name="C:\Users\Trainee\Downloads\spring-boot-web-jsp\spring-boot-web-jsp\src\main\webapp\WEB-INF\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringBootWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mkyong.SpringBootWebApplication" />
+      <module name="spring-boot-web-jsp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mkyong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringBootWebApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../lift-lift_30_sbt-35403c6/lift-lift_30_sbt-35403c6/lift_basic" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../lift-lift_30_sbt-35403c6/lift-lift_30_sbt-35403c6/lift_blank" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/Create_Lift-web_Using_SBT" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/cookbook_html" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b099c682-e744-4cd5-887d-de5477d2def8" name="Default Changelist" comment="" />
+      <created>1583402710092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583402710092</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.jsp" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583403776735">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583403776735" />
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1583433866162">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583433866162" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1583433866161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583433866161" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1583433866161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583433866161" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1583433866161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583433866161" />
+  </component>
+</project>
