@@ -1,31 +1,60 @@
-<!--
-Author: Colorlib
-Author URL: https://colorlib.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE html>
+
 <html>
 <head>
-<title>Creative Colorlib SignUp Form</title>
+<title>Symposium Event Registration</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Custom Theme files -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- //Custom Theme files -->
 <!-- web font -->
 <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
-<!-- //web font -->
+
+<script src="https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="js/app-ajax.js" type="text/javascript"></script>
+
 </head>
 <body>
+
+<script>
+    $(document).ready(function(){
+    $("#bt").click(function(){
+        console.log("Sdsd");
+        alert("The paragraph was clicked.");
+          var inputVal = document.getElementById("TeamMem").value;
+        	  console.log("function insidee");
+        	  document.getElementById("df").innerHTML="dff";
+        	  if(inputVal<=3)
+        	  {
+                for(var i=0;i<inputVal;i++)
+                {
+          		    var x = document.createElement("INPUT");
+                    x.setAttribute("type", "text");
+          		    x.setAttribute("placeholder", "Enter the name");
+          		    var y= document.createElement("INPUT");
+          		    x.setAttribute("type","text");
+          		    x.setAttribute("placeholder","Enter the college name");
+          		    document.body.appendChild(x);
+          		    document.body.appendChild(y);
+         	    }
+         	  }
+         	  else
+         	  {
+         	      alert("Team members should be less than 3");
+         	  }
+      });
+    });
+ 	 </script>
 	<!-- main -->
 	<div class="main-w3layouts wrapper">
-		<h1>Creative SignUp Form</h1>
+		<h1>Registeration</h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
 				<form action="#" method="post">
-					<input class="text" type="text" name="Username" placeholder="Username" required="">
+				    <input class="number" type="number" id="TeamMem" placeholder="Enter the team members" required="" >
+				    <input type="button"  value="click it" id="bt"/>
+				    <div id="NmList"></div>
+					<!--<input class="text" type="text" name="Username" placeholder="Username" required="">-->
 					<input class="text email" type="email" name="email" placeholder="Email" required="">
 					<input class="text" type="password" name="password" placeholder="Password" required="">
 					<input class="text w3lpass" type="password" name="password" placeholder="Confirm Password" required="">
@@ -38,12 +67,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<input type="submit" value="SIGNUP">
 				</form>
-				<p>Don't have an Account? <a href="#"> Login Now!</a></p>
+				<p id="df">Don't have an Account? <a href="#"> Login Now!</a></p>
 			</div>
-		</div>
-		<!-- copyright -->
-		<div class="colorlibcopy-agile">
-			<p>© 2018 Colorlib Signup Form. All rights reserved | Design by <a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
 		</div>
 		<!-- //copyright -->
 		<ul class="colorlib-bubbles">
@@ -59,60 +84,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<li></li>
 		</ul>
 	</div>
+
 	<!-- //main -->
 </body>
 </html>
 
-<!--
-<!DOCTYPE html>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<html lang="en">
-<head>
-
-<link rel="stylesheet" type="text/css"
-	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
-
-<!-- 
-	<spring:url value="/css/main.css" var="springCss" />
-	<link href="${springCss}" rel="stylesheet" />
-	 -->
-<c:url value="/css/main.css" var="jstlCss" />
-<link href="${jstlCss}" rel="stylesheet" />
-
-</head>
-<body>
-
-	<nav class="navbar navbar-inverse">
-		<div class="container">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#">Spring Boot</a>
-			</div>
-			<div id="navbar" class="collapse navbar-collapse">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">About</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-	<div class="container">
-
-		<div class="starter-template">
-			<h1>Spring Boot Web JSP Example</h1>
-			<h2>Message: ${message}</h2>
-		</div>
-
-
-
-	</div>
-	<!-- /.container -->
-
-	<script type="text/javascript"
-		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
--->

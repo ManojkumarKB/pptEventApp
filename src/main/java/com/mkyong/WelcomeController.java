@@ -20,7 +20,8 @@ public class WelcomeController {
 	private UserRepository userRepository;
 
 	@RequestMapping("/a")
-	public String welcome(Map<String, Object> model) {
+	public String welcome(Map<String, Object> model)
+	{
 		System.out.println("/a mapped");
 		model.put("message", this.message);
 		return "register";

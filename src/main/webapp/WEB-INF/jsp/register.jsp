@@ -28,7 +28,7 @@
 </head>
 
 <script>
-function ValidateEmail(mail)
+function ValidateEmail()
 {
  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))
   {
@@ -54,9 +54,10 @@ function ValidateEmail(mail)
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <input class="input--style-1" type="text" placeholder="Enter your email id" onmousemoveout="ValidateEmail" name="email">
+                                    <input class="input--style-1" type="text" placeholder="Enter your email id" onmousemoveout="ValidateEmail()" name="emailAddr">
                                 </div>
                             </div>
+                            <button onclick="ValidateEmail()">Valid</button>
                         </div>
                         <div class="p-t-20">
                             <button class="btn btn--radius btn--green" type="submit">Submit</button>
